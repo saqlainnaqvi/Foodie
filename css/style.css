@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.fix {
+    clear: both;
+    overflow: hidden;
+}
+
+header {
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+
+
+.vid-bg {
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.nav-area {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 70px;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+.logo {
+    margin: 0 50px;
+    height: 60px;
+    margin-top: 10px;
+    float: left;
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-left: 3.8rem;
+    font-weight: 500;
+}
+
+
+.logo span {
+    color: orange;
+    font-size: 2.8rem;
+}
+
+.menu-area {
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+
+.menu-area li {
+    display: inline-block;
+}
+
+
+li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 6rem;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    transition: all .3s;
+    font-weight: 500;
+}
+
+.menu-area li a:hover {
+    color: orange;
+}
+
+
+.banner-text {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+h1 span {
+    color: orange;
+    font-size: 7rem;
+}
+
+
+
+.first-paragraph {
+    color: white;
+    font-size: 3.4rem;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+
+
+.btn {
+display: inline-block;
+margin-top: 5%;
+background: rgba(255, 166, 0, 0.678);
+font-size: 1.7rem;
+font-weight: 600;
+border: 0;
+word-spacing: 4px;
+color: white;
+margin-left: 8rem;
+border-radius: 5px;
+padding: 1rem 6rem;
+border: 2px solid orange;
+transition: all 0.3s;
+font-family: 'Jim Nightshade', cursive;
+}
+
+
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.733);
+    letter-spacing: 2px;
+    transform: scale(1.04);
+    border: none;
+}
+
+
+.section-contact {
+    background-color: rgb(0, 0, 0);
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+
+h2 {
+    font-size: 2.4rem;
+}
+
+
+.second-paragraph {
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+
+.border {
+    height: 7px;
+    width: 150px;
+    margin: 40px auto;
+    background-color: orange;
+}
+
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+
+.contact-form-text {
+    display: block;
+   margin: 16px 0;
+   width: 100%;
+   padding: 20px 40px;
+   background-color: #111;
+   border: 0;
+   color: white;
+   transition: 0.5s;
+}
+
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+
+.contact-form-btn {
+    border: 0;
+    background: orange;
+    padding: 0.7rem 3rem;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 4rem;
+    letter-spacing: 3px;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+
+.contact-form-btn:hover {
+    background-color: rgba(0, 195, 255, 0.664); 
+}
+ 
+
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid rgba(255, 255, 255, 0.185);
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+
+
+
+h4 {
+    font-size: 2rem;
+    letter-spacing: 4px;
+  
+}
+
+
+.footer-li{
+    display: inline-block;
+list-style: none;
+font-size: 2rem;
+margin-right: 2.5rem;
+margin-left: 2.5rem;
+margin-top: 1.5rem;
+}
+
+
+
+.footer-li:hover {
+    color: rgba(0, 195, 255, 0.664);
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
